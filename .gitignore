@@ -1,0 +1,51 @@
+# Java / Compiled classes
+*.class
+*.log
+*.ctxt
+*.jar
+!libs/*.jar
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# IDE - Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IDE - VS Code
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Sensitive / Server runtime data (not for Git)
+assignments.yml
+zones-data.yml
+run/
+cache/
+server/
